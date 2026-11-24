@@ -1,0 +1,10 @@
+# 统一换行，避免 Windows 下 core.autocrlf 把配置改成 CRLF
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制资源
+*.ttf binary
+*.otf binary
+*.exe binary
+*.glsl text eol=lf

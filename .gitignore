@@ -1,0 +1,11 @@
+# 运行时 / 系统垃圾
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+
+# mpv 缓存与播放记录（保留空目录占位）
+portable_config/_cache/**
+!portable_config/_cache/**/
+!portable_config/_cache/**/.keep
+portable_config/watch_later/
